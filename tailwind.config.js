@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        '2xls': '1.75rem',
+      },
       inset: {
         '0': 0,
        '120': '32rem',
@@ -23,7 +26,6 @@ module.exports = {
         'primary': '#010F39',
         'secondary': '#ffed4a',
         'danger': '#e3342f',
-        
        }),
       textColor: {
         'primary': '#3490dc',
@@ -32,6 +34,7 @@ module.exports = {
         'faqColor': '#C9CCD1',
         'newsletterText':'#4C7BFE',
         'newsletterHolder':'#BBBBBB',
+        'angelColor':'#24BFF2',
       },
        backgroundImage: theme => ({
         'starfish': "url('/imgs/starfish.png')",

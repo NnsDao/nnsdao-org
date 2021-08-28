@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import VideoPlayer from "react-background-video-player"
-
 
 const Nav = () => {
   const [showProfileMenu, setShowProfileMenu] = useState(false)
@@ -14,30 +12,25 @@ const Nav = () => {
     { text: 'DAOn', to: '/daon' },
     { text: 'Roadmap', to: '/roadmap' },
     { text: 'FAQ', to: '/faq' },
+    { text: 'About', to: '/about' },
   ]
 
   const activeClass = 'text-white'
-  const inactiveClass = 'text-gray-300 hover:text-white hover:bg-gray-700'
+  const inactiveClass = 'text-white opacity-50  hover:text-white'
 
   return (
     <nav className="h-screen relative">
       <div className="ml-11 ">
-        <VideoPlayer
-          className="w-screen h-3/5 bg-primary"
-          src={
-            "/imgs/background.mp4"
-          }
-          autoPlay={true}
-          muted={true}
-        />
         <div className="flex items-center  justify-between  h-16">
           <div className="flex ">
             <div className="relative mt-6">
+              <a href="/" className="cursor-pointer transition duration-300">
               <img
                 className="h-10 w-24"
                 src="/imgs/logo.png"
                 alt="nnsdao logo"
               />
+              </a>
             </div>
             
           </div>
@@ -158,21 +151,7 @@ const Nav = () => {
           </div>
         </div>
         
-      </div>
-      
-      <div className="flex absolute left-1/3 top-10">
-         <img  width="1034px" height="1005px" src="/imgs/starfish.png"  alt="nnsdao starfish logo" />
-      </div>
-
-      <div className="flex relative text-white">
-                <p className="flex absolute top-60 left-80 text-4xl "> The boundaryless <br/>
-                autonomous organization.</p>
-      </div>
-
-      <div className="flex relative text-white">
-        <p className="flex  absolute top-96 left-80  text-4xl"> DAOs SINGULARITY </p>
-        <img  className="flex  absolute  top-120 left-80"  width="204px" height="56px" src="/imgs/bg-whitepaper-hover.png"  alt="nnsdao whitepaper" />
-      </div>
+      </div> 
       {/* Menu open: "block", Menu closed: "hidden"  */}
       <div className={`md:hidden ${showMenu ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 sm:px-3">
