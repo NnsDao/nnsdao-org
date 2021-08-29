@@ -1,27 +1,44 @@
-import React, { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import React, { useState,useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   const [showProfileMenu, setShowProfileMenu] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
-  const location = useLocation()
 
   const links = [
-    { text: 'Home', to: '/' },
-    { text: 'Ecosystem', to: '/ecosystem' },
-    { text: 'DAOn', to: '/daon' },
-    { text: 'Roadmap', to: '/roadmap' },
-    { text: 'FAQ', to: '/faq' },
-    { text: 'About', to: '/about' },
+    { text: 'Home', to: 'home' },
+    { text: 'Ecosystem', to: 'ecosystem' },
+    { text: 'DAOn', to: 'daon' },
+    { text: 'Roadmap', to: 'roadmap' },
+    { text: 'FAQ', to: 'faq' },
   ]
 
-  const activeClass = 'text-white'
-  const inactiveClass = 'text-white opacity-50  hover:text-white'
+  const activeClass = 'text-white transition delay-150 duration-500'
+  const inactiveClass = 'text-white opacity-50 transform hover:scale-90'
 
+  // Anchor
+  const [anchor, setValue] = useState('home');
+
+  useEffect(()=>{
+      console.log(anchor)
+      ifAnchorJustScorll(anchor)
+  },[anchor]);
+
+  let ifAnchorJustScorll = (anchor:string)=> {
+      if (!!anchor) {
+        let anchorElement = document.getElementById(anchor);
+        if (anchorElement) {
+          window.scrollTo(0, anchorElement.offsetTop - window.innerHeight / 2);
+        }
+      }
+      else {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
+  }
   return (
-    <nav className="h-screen relative">
+    <nav className="h-screen">
       <div className="ml-11 ">
-        <div className="flex items-center  justify-between  h-16">
+        <div className="flex items-center  justify-between  h-16 lg:fixed lg:w-full z-50">
           <div className="flex ">
             <div className="relative mt-6">
               <a href="/" className="cursor-pointer transition duration-300">
@@ -43,9 +60,14 @@ const Nav = () => {
                   {links.map((link, i) => (
                     <Link
                       key={link.text}
-                      to={link.to}
+                      to={''}
+                      onClick={() => {
+                        setValue(
+                          link.to
+                        );
+                      }}
                       className={`px-3 py-2 rounded-md text-sm font-medium ${
-                        location.pathname === link.to
+                        anchor === link.to
                           ? activeClass
                           : inactiveClass
                       } ${i > 0 && 'ml-4'}`}
@@ -66,7 +88,7 @@ const Nav = () => {
               {/* Profile dropdown */}
               <div className="ml-3 relative">
                 <div>
-                  <button
+                  {/* <button
                     className="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                     id="user-menu"
                     aria-label="User menu"
@@ -74,9 +96,9 @@ const Nav = () => {
                     onClick={() => setShowProfileMenu(!showProfileMenu)}
                   >
                     <span className="sr-only">Open user menu</span>
-                    {/* <span>Login</span> */}
                     <img className="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                  </button>
+                  </button> */}
+                  {/* <span>Login</span> */}
                 </div>
                 {showProfileMenu && (
                   <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5">
@@ -158,9 +180,14 @@ const Nav = () => {
           {links.map((link, i) => (
             <Link
               key={link.text}
-              to={link.to}
+              to={''}
+              onClick={() => {
+                setValue(
+                  link.to
+                );
+              }}
               className={`block px-3 py-2 rounded-md text-sm font-medium ${
-                location.pathname === link.to ? activeClass : inactiveClass
+                anchor === link.to ? activeClass : inactiveClass
               } ${i > 0 && 'mt-1'}`}
             >
               {link.text}

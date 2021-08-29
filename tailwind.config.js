@@ -38,6 +38,7 @@ module.exports = {
       },
        backgroundImage: theme => ({
         'starfish': "url('/imgs/starfish.png')",
+        'bg-whitepaper': "url('/imgs/bg-whitepaper.png')",
        })
     },
   },

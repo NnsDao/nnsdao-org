@@ -14,6 +14,9 @@ const Footer: React.FC = () => {
                 <a href="#" className="my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
                     Docs
                 </a>
+                <a href="#" className="my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
+                    White Paper
+                </a>
               
             </div>
       

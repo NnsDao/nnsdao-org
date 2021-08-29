@@ -1,13 +1,10 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./home.css"
 import Faq from 'react-faq-component'
 import Nav from '../components/Nav'
 import Video from '../components/Video'
 import Starfish from '../components/Starfish'
 import Footer from '../components/Footer'
-
-
-
 
 const data = {
   rows: [
@@ -66,23 +63,48 @@ const Home = () => {
       <Starfish />
       <Nav />
       <main>
-        <div className="w-full">
+        <div className="">
           {/* Ecosystem */}
           <div className=" bg-primary">
-            <div className="p-4 text-center text-white">
+            <div className="p-4 text-center text-white" id='ecosystem' >
               Ecosystem
                 <div className="justify-center p-20 flex items-center">
-                  <div>
+                  <div className="max-w-2xl">
                     <img src="/imgs/icpscan.png" width="840px" height="537px" />
                   </div>
-                  <div className="relative w-1/4">
+                  <div className="relative max-w-2xl">
                     <h2 className="text-xl font-bold text-white mb-2 text-left ">Icpscan</h2>
                     <p className="text-white  text-left align-middle text-xs leading-7">Icpscan is a block browser service based on IC.</p>
-                    <p className="text-white  text-left align-middle text-xs leading-7 pb-2" >Our vision is to access all Token information within the IC ecosystem, so that users can learn all the ecological dynamics of IC, such as wallet activity, user ranking, token ranking and holders, etc. through one site. The target group of the project will be every user who is interested in IC, and also in aggregating other Dapps within the IC ecology as a tool, all can go through Icpscan to check the content they need in the future. </p>
+                    <p className="text-white  text-left align-middle text-xs leading-7 pb-2" >
+                      Our vision is to access all Token information within the IC ecosystem, so that users can learn
+                      all the ecological dynamics of IC, such as wallet activity, user ranking, token ranking and 
+                      holders, etc. through one site. The target group of the project will be every user who is
+                      interested in IC, and also in aggregating other Dapps within the IC ecology as a tool, all can
+                      go through Icpscan to check the content they need in the future. </p>
                     <div className="text-left  text-xs leading-7">
                       <p>·View token information </p>
                       <p>·Obtain information about different tokens </p>
                       <p>·Observe address dynamics</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="justify-center p-20 flex items-center">
+                  <div className="max-w-2xl">
+                    <img src="/imgs/icpscan.png" width="840px" height="537px" />
+                  </div>
+                  <div className="relative max-w-2xl">
+                    <h2 className="text-xl font-bold text-white mb-2 text-left ">Texas hold'em </h2>
+                    <p className="text-white  text-left align-middle text-xs leading-7 pb-2 break-words" >
+                      There is a famous saying in Texas Hold'em: "Victory comes not from your opponent making more mistakes, but from you making fewer". Texas Hold'em is a very skillful game that combines luck, patience, perseverance, and wisdom together. It tests each person's character, ability and determines the ultimate winner through chips. Developed by DAOs, Texas is completely built on IC and controls all settlements through Motoko Actor smart contract, all codes, contracts, and algorithms are publicly visible, it features decentralization and opens up a new game of life. </p>
+                    <div className="text-left  text-xs leading-7">
+                      <p>·Free chips, login to get experience token</p>
+                      <p>·Super jackpot, all the winners </p>
+                      <p>·Tournament, smart contract rewards the ultimate winner</p>
+                      <p>·Free circulation of chips, anyone can participate</p>
+                      <p>·No ads, the best quality experience</p>
+                      <p>·Fair, just and open</p>
                     </div>
                   </div>
                 </div>
@@ -114,7 +136,7 @@ const Home = () => {
                 </div>
 
                  {/* nnsdao Protocol */}
-                <div className="mnp-core">
+                <div className="mnp-core" id='daon'>
                   <p className="mn-protocol"> Nnsdao Protocol </p>
 
                   <div className="mnp-text">
@@ -128,13 +150,13 @@ const Home = () => {
                   </div>
 
                   {/* roadmap */}
-                  <div className="relative top-60"> Roadmap </div>
+                  <div className="relative top-60" id='roadmap'> Roadmap </div>
                   <div className="relative justify-center -left-1/4 -mt-44">
                       <img width="2256px" height="2253px"  src="/imgs/roadmap.png"  />
                   </div>
                   {/* faq */}
-                  <div className="relative -top-60">
-                    <div> FAQ’s</div>
+                  <div className="relative -top-60" id='faq' >
+                    <div > FAQ’s</div>
                       <div className="w-1/11 mx-auto text-left ">
                       <Faq data={data}  styles={{
                         bgColor: "false",
@@ -150,30 +172,28 @@ const Home = () => {
                 </div>
 
                 {/* NnsDAO Newsletter */}
-                <div>
+                {/* max-w-lg  container  */}
+                <div id='newsletter'>
                   <div className="text-lg text-white font-bold capitalize"> Get our weekly</div>
-                  {/* max-w-lg  container  */}
-                  <div className="max-w-lg mx-auto flex items-center relative">
+                  <div className="max-w-xl mx-auto flex items-center relative">
                     <div className="mr-10">
-                      <img  width="377px" height="266px" src="/imgs/newsletter.png"  />
+                      <img  width="100%" height="100%" src="/imgs/newsletter.png"  />
                     </div>
                     <div className="w-2/4 pt-36 relative -top-16">
                       <div className="font-medium text-newsletterText text-left uppercase mb-7">newsletter</div>
-                        <p className="w-screen text-white text-sm leading-5 text-left ">
+                        <p className="w-max text-white text-sm leading-5 text-left ">
                         Get weekly updates on the newest design stories, case</p>
-                        <p className="w-screen text-white text-sm leading-5 text-left ">studies and tips right in your mailbox.  </p>
-                        <p className="w-screen text-white text-sm leading-5 text-left "> Subscribe Now!</p>
+                        <p className="w-max text-white text-sm leading-5 text-left ">studies and tips right in your mailbox.  </p>
+                        <p className="w-max text-white text-sm leading-5 text-left transform hover:scale-70"> Subscribe Now!</p>
                     </div>
                   </div>
 
-                  <div className="max-w-lg mx-auto flex items-center relative">
+                  <div className="max-w-xl mx-auto flex items-center relative">
                       <form className=" flex">
                         <input type="text" className="newletter-input px-5 py-3.5 text-newsletterHolder   focus:outline-none focus:ring focus:text-primary" placeholder="your@mail.com"/>
                         <button className="hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 uppercase button-blue ">Subscribe</button>
                       </form>
                   </div>
-
-                 
                 </div>
 
                 {/* footer */}
