@@ -11,8 +11,10 @@ const About = () => {
           <Nav />
           {/* about */}
           <div className="relative -top-96">
-            <div className="container max-w-5xl mx-auto px-4">
-                <div className="w-4/5"></div>
+          <div className="z-10 absolute top-36 ">
+            <img src="/imgs/bg-star.png" width="100%" height="100%" />
+          </div>
+          <div className="container max-w-5xl mx-auto px-4 ">
                   <Daobout />
                    {/* NnsDAO */}
                   <div className="pl-6">
@@ -39,6 +41,7 @@ const About = () => {
                             </p>
                         </div>
                   </div>
+                 
 
                   {/* Mission */}
 

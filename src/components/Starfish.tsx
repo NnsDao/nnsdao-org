@@ -4,7 +4,7 @@ import React from 'react'
 
 const Starfish: React.FC = () => {
   return (
-    <div id="home">
+    <div id="home" className="h-min-screen">
         <div className="max-w-2xl  flex absolute right-40 top-20">
         <img  src="/imgs/starfish.png"  alt="nnsdao starfish logo" />
         </div>
