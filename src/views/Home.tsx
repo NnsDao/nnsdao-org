@@ -68,7 +68,7 @@ const Home = () => {
           <div className=" bg-primary">
             <div className="p-4 text-center text-white" id='ecosystem' >
               Ecosystem
-                <div className="justify-center p-20 flex items-center">
+                <div className="p-6 md:flex justify-center items-center md:p-20">
                   <div className="max-w-2xl">
                     <img src="/imgs/icpscan.png" width="840px" height="537px" />
                   </div>
@@ -89,8 +89,7 @@ const Home = () => {
                   </div>
                 </div>
 
-
-                <div className="justify-center p-20 flex items-center">
+                <div className="p-6 md:flex justify-center items-center md:p-20">
                   <div className="max-w-2xl">
                     <img src="/imgs/icpscan.png" width="840px" height="537px" />
                   </div>
@@ -109,7 +108,7 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-row justify-center">
+                <div className="md:flex flex-row justify-center">
                   <div className="ec-box">
                     <img src="/imgs/icpdrops.png" width="256px" height="107px" />
                     <div className="ec-text">
@@ -145,17 +144,17 @@ const Home = () => {
                       <p>DAOs:Service functions are generally referred to as programmable DAOs, which have a number of fundamental properties.
                     </p>
                   </div>
-                  <div className=" justify-center  bg-cover mx-96" >
+                  <div className="justify-center bg-cover md:mx-96" >
                     <img width="1111px" height="514px"  src="/imgs/nnsdao-nomos-core.png"  />
                   </div>
 
                   {/* roadmap */}
-                  <div className="relative top-60" id='roadmap'> Roadmap </div>
-                  <div className="relative justify-center -left-1/4 -mt-44">
+                  <div className="relative top-20 md:top-60" id='roadmap'> Roadmap </div>
+                  <div className="relative -left-16 mt-6 justify-center md:-left-1/4 md:-mt-44">
                       <img width="2256px" height="2253px"  src="/imgs/roadmap.png"  />
                   </div>
                   {/* faq */}
-                  <div className="relative -top-60" id='faq' >
+                  <div className="relative md:-top-60" id='faq' >
                     <div > FAQ’s</div>
                       <div className="w-1/11 mx-auto text-left ">
                       <Faq data={data}  styles={{
@@ -173,18 +172,18 @@ const Home = () => {
 
                 {/* NnsDAO Newsletter */}
                 {/* max-w-lg  container  */}
-                <div id='newsletter'>
+                <div id='newsletter' className="mt-20">
                   <div className="text-lg text-white font-bold capitalize"> Get our weekly</div>
                   <div className="max-w-xl mx-auto flex items-center relative">
-                    <div className="mr-10">
+                    <div className="w-1/2 mr-4 md:mr-10">
                       <img  width="100%" height="100%" src="/imgs/newsletter.png"  />
                     </div>
-                    <div className="w-2/4 pt-36 relative -top-16">
+                    <div className="md:w-2/4 pt-36 relative -top-16">
                       <div className="font-medium text-newsletterText text-left uppercase mb-7">newsletter</div>
-                        <p className="w-max text-white text-sm leading-5 text-left ">
+                        <p className="text-white text-sm leading-5 text-left md:w-max">
                         Get weekly updates on the newest design stories, case</p>
-                        <p className="w-max text-white text-sm leading-5 text-left ">studies and tips right in your mailbox.  </p>
-                        <p className="w-max text-white text-sm leading-5 text-left transform hover:scale-70"> Subscribe Now!</p>
+                        <p className="md:w-max text-white text-sm leading-5 text-left ">studies and tips right in your mailbox.  </p>
+                        <p className="md:w-max text-white text-sm leading-5 text-left transform hover:scale-70"> Subscribe Now!</p>
                     </div>
                   </div>
 

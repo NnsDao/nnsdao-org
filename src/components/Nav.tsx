@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
@@ -19,21 +19,21 @@ const Nav = () => {
   // Anchor
   const [anchor, setValue] = useState('home');
 
-  useEffect(()=>{
-      console.log(anchor)
-      ifAnchorJustScorll(anchor)
-  },[anchor]);
+  useEffect(() => {
+    console.log(anchor)
+    ifAnchorJustScorll(anchor)
+  }, [anchor]);
 
-  let ifAnchorJustScorll = (anchor:string)=> {
-      if (!!anchor) {
-        let anchorElement = document.getElementById(anchor);
-        if (anchorElement) {
-          window.scrollTo(0, anchorElement.offsetTop - window.innerHeight / 2);
-        }
+  let ifAnchorJustScorll = (anchor: string) => {
+    if (!!anchor) {
+      let anchorElement = document.getElementById(anchor);
+      if (anchorElement) {
+        window.scrollTo(0, anchorElement.offsetTop - window.innerHeight / 2);
       }
-      else {
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
-      }
+    }
+    else {
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
   }
   return (
     <nav className="h-screen">
@@ -85,10 +85,10 @@ const Nav = () => {
                 </svg>
               </button> */}
 
-              {/* Profile dropdown */}
-              <div className="ml-3 relative">
-                <div>
-                  {/* <button
+            {/* Profile dropdown */}
+            <div className="ml-3 relative">
+              <div>
+                {/* <button
                     className="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                     id="user-menu"
                     aria-label="User menu"
@@ -186,9 +186,8 @@ const Nav = () => {
                   link.to
                 );
               }}
-              className={`block px-3 py-2 rounded-md text-sm font-medium ${
-                anchor === link.to ? activeClass : inactiveClass
-              } ${i > 0 && 'mt-1'}`}
+              className={`block px-3 py-2 rounded-md text-sm font-medium ${anchor === link.to ? activeClass : inactiveClass
+                } ${i > 0 && 'mt-1'}`}
             >
               {link.text}
             </Link>

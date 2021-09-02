@@ -104,13 +104,23 @@ const Footer: React.FC = () => {
             <div className="flex pb-5 px-3 m-auto pt-5 
                  text-gray-400 text-sm 
                 flex-col md:flex-row max-w-6xl">
-                <div className="mt-2 flex">
+                <div className="hidden mt-2 flex md:show">
                     NnsDAO Labs © Copyright 2021. Build on
 
                     <img src="/imgs/deploy-ic.png" className="w-24 h-full ml-1" />
                 </div>
+
+                <div className="show mt-2 md:hidden">
+                    NnsDAO Labs © Copyright 2021. 
+                    
+                    <div className="flex justify-center items-center">
+                        Build on
+                        <img src="/imgs/deploy-ic.png" className="w-24 h-full ml-1" />
+                    </div>
+                    
+                </div>
       
-                <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+                <div className="justify-center items-center md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
                     
                     <a href="https://twitter.com/NnsDaos" className="w-6 mx-1  hover:text-gray-100 text-sm font-medium duration-700">
                         <img src="/imgs/twitter.png"  />
