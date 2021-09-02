@@ -11,10 +11,10 @@ const About = () => {
           <Nav />
           {/* about */}
           <div className="relative -top-96">
-          <div className="z-10 absolute top-36 ">
+          <div className="z-10 absolute md:top-36 ">
             <img src="/imgs/bg-star.png" width="100%" height="100%" />
           </div>
-          <div className="container max-w-5xl mx-auto px-4 ">
+          <div className="container max-w-5xl mx-auto px-4 font-medium">
                   <Daobout />
                    {/* NnsDAO */}
                   <div className="pl-6">
@@ -80,33 +80,16 @@ const About = () => {
                             <p className="text-white text-xs">
                             To get in touch, please email 
                             <span className="text-angelColor cursor-pointer transition duration-500">
-                              <a href="mailto:contact@nnsdao.org"> contact@nnsdao.org</a>
+                              <a href="mailto:contact@nnsdao.com"> contact@nnsdao.com</a>
                             </span>
                             </p>
                             <p className="text-white text-xs mt-5">
                               We encourage anyone facing issues with their wallet, transaction or Uniswap related <br/> question to join our active community discord.
                             </p>
                             <p className="text-sm text-white font-bold mt-5">
-                                <a href="" className="cursor-pointer transition duration-300 pr-3"> Discord ↗ </a>
+                                {/* <a href="" className="cursor-pointer transition duration-300 pr-3"> Discord ↗ </a> */}
                                 <a href="https://dscvr.ic0.app/user/nnsdao" className="hover:text-white cursor-pointer pr-3"> Dscvr ↗ </a>
                                 <a href="https://az5sd-cqaaa-aaaae-aaarq-cai.ic0.app/u/nnsdaos" className="hover:text-white cursor-pointer pr-3"> Distrikt ↗ </a>
-                            </p>
-                        </div>
-                  </div>
-
-                  {/* Sponsors  */}
-
-                  <div className="pl-6 mt-20">
-                        <p className="text-white text-2xls font-bold">Sponsors Holder</p>
-                        <div className="text-sm text-white pt-5 opacity-100">
-                            <p className="text-white text-xs mb-5">
-                              Tip: Sponsors and airdrops account for 2% of the total. 
-                            </p>
-                            <p className="text-white text-xs mb-5">
-                              Sponsors ICP Address(Second start): 76f532b532a89440773abd7b45f513f39369882f4aafecd36809e4dd8d46d820.
-                            </p>
-                            <p className="text-white text-xs">
-                              Holder: HWRD / Haru.
                             </p>
                         </div>
                   </div>

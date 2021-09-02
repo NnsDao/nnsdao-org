@@ -6,7 +6,7 @@ import VideoPlayer from "react-background-video-player"
 const BgVideo: React.FC = () => {
   return (
         <VideoPlayer
-        className="w-screen h-3/5 bg-primary"
+        className="w-screen h-full"
         src={
         "/imgs/background.mp4"
         }

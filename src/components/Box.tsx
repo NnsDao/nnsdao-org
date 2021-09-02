@@ -7,7 +7,7 @@ interface Props {
 
 const Box: React.FC<Props> = ({ nameCount,name }) => {
   return (
-    <div className="group flex items-center gap-5 px-6 py-5 mt-5 cursor-pointer">
+    <div className="group flex items-center gap-5 pl-6 pr-32 py-5 mt-5">
         <div>
             <span className="text-white text-2xl ">{ nameCount }</span>
             <span className="text-xs text-white opacity-40 block">{ name }</span>

@@ -21,9 +21,9 @@ const BoxData = [
 const Daobout: React.FC = () => {
   return (
     <div>
-        <div className="relative -top-60 flex flex-col items-center  justify-center ">
+        <div className="relative md:-top-60 sm:top-10 flex flex-col items-center  justify-center">
             <div className="text-left">
-                <p className="text-dao-bg">
+                <p className="md:flex flex-row text-white md:text-4xl">
                     Forming an organization with values and touchy-feely 
                     guides keeps the community off the edge, where everyone 
                     wants to contribute, provides security for thousands of
@@ -31,7 +31,7 @@ const Daobout: React.FC = () => {
                 </p>
             </div>
 
-            <div className="w-full grid sm:grid-cols-2 md:grid-cols-3  sm:gap-5 mt-0">
+            <div className="w-full  flex flex-row ">
                 {
                     [...BoxData].map(box =>
                         <Box name = { box.name } key={box.nameCount}  nameCount ={box.nameCount} />
@@ -39,13 +39,13 @@ const Daobout: React.FC = () => {
                 }
             </div>
 
-            <div className="w-full pt-20  pl-6">
+            <div className="w-full pt-30  pl-6">
                 <p className="text-white text-sm mb-10">
                     We are committed to creating a different kind of sovereign governance protocol in the WEB 3.0 <br />era, built on IC's contract Canister.
                 </p>
                 <p className="text-sm text-white font-bold">
-                    <a href="" className="cursor-pointer transition duration-300 pr-3"> NDP  </a>
-                    <a href="" className="hover:text-white cursor-pointer"> V1 Whitepaper ↗ </a>
+                    {/* <a href="/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf" className="cursor-pointer duration-300 pr-3"> NDP  </a> */}
+                    <a href="/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf" className="cursor-pointer">NnsDAO Protocol Whitepaper ↗ </a>
                 </p>
             </div>
         </div>

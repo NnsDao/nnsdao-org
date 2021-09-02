@@ -23,7 +23,7 @@ module.exports = {
        '120': '32rem',
       },
       backgroundColor: theme => ({
-        'primary': '#010F39',
+        'primary': '#010D41',
         'secondary': '#ffed4a',
         'danger': '#e3342f',
        }),

@@ -59,13 +59,13 @@ const data = {
 const Home = () => {
   return (
     <React.Fragment>
-      <Video />
-      <Starfish />
-      <Nav />
       <main>
-        <div className="">
+        <div className="bg-primary">
+          <Video />
+          <Starfish />
+          <Nav />
           {/* Ecosystem */}
-          <div className=" bg-primary">
+          <div className=" ">
             <div className="p-4 text-center text-white" id='ecosystem' >
               Ecosystem
                 <div className="p-6 md:flex justify-center items-center md:p-20">
@@ -91,9 +91,9 @@ const Home = () => {
 
                 <div className="p-6 md:flex justify-center items-center md:p-20">
                   <div className="max-w-2xl">
-                    <img src="/imgs/icpscan.png" width="840px" height="537px" />
+                    <img src="/imgs/texas.png" width="539px" height="539px" />
                   </div>
-                  <div className="relative max-w-2xl">
+                  <div className="relative max-w-2xl md:pl-10">
                     <h2 className="text-xl font-bold text-white mb-2 text-left ">Texas hold'em </h2>
                     <p className="text-white  text-left align-middle text-xs leading-7 pb-2 break-words" >
                       There is a famous saying in Texas Hold'em: "Victory comes not from your opponent making more mistakes, but from you making fewer". Texas Hold'em is a very skillful game that combines luck, patience, perseverance, and wisdom together. It tests each person's character, ability and determines the ultimate winner through chips. Developed by DAOs, Texas is completely built on IC and controls all settlements through Motoko Actor smart contract, all codes, contracts, and algorithms are publicly visible, it features decentralization and opens up a new game of life. </p>
@@ -156,11 +156,13 @@ const Home = () => {
                   {/* faq */}
                   <div className="relative md:-top-60" id='faq' >
                     <div > FAQ’s</div>
-                      <div className="w-1/11 mx-auto text-left ">
+                      <div className="md:w-1/11 mx-auto text-left ">
                       <Faq data={data}  styles={{
                         bgColor: "false",
                         titleTextColor: "#FFFFFF",
+                        titleTextSize: '16px',
                         rowTitleColor: "#FFFFFF",
+                        rowTitleTextSize: 'medium',
                         rowContentColor: "#C9CCD1",
                         rowContentTextSize: '14px',
                         arrowColor: "white",
@@ -187,10 +189,10 @@ const Home = () => {
                     </div>
                   </div>
 
-                  <div className="max-w-xl mx-auto flex items-center relative">
+                  <div className="w-full flex flex-row mx-auto justify-center items-center relative ">
                       <form className=" flex">
-                        <input type="text" className="newletter-input px-5 py-3.5 text-newsletterHolder   focus:outline-none focus:ring focus:text-primary" placeholder="your@mail.com"/>
-                        <button className="hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 uppercase button-blue ">Subscribe</button>
+                        <input type="text" value="email" className="newletter-input px-5 py-3.5 text-newsletterHolder   focus:outline-none focus:ring focus:text-primary" placeholder="your@mail.com"/>
+                        <button className="md:w-32 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 uppercase button-blue ">Subscribe</button>
                       </form>
                   </div>
                 </div>

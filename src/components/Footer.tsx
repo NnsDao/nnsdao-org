@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
                     Getting Started
                 </div>
                 {/* Links */}
-                <a href="#" className="my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
+                <a className="cursor-not-allowed my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
                     Docs
                 </a>
-                <a href="#" className="my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
-                    White Paper
+                <a href="/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf" className="my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
+                    White Paper V1
                 </a>
               
             </div>
@@ -34,10 +34,10 @@ const Footer: React.FC = () => {
                 <a href="https://lm5fh-ayaaa-aaaah-aafua-cai.ic0.app/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Texas
                 </a>
-                <a  className="my-3 block text-gray-300 text-sm font-medium duration-700">
+                <a  className="cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700">
                     Icpdrops
                 </a>
-                <a className="my-3 block text-gray-300 text-sm font-medium duration-700">
+                <a className="cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700">
                     Dfinity Social
                 </a>
                
@@ -49,21 +49,13 @@ const Footer: React.FC = () => {
                 <div className="text-opacity-50 text-xs uppercase text-white font-medium mb-6">
                     DAOs
                 </div>
-      
                 {/* Links */}
                 <a href="/about" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     About
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Mission
-                </a>
                 <a href="https://angel.co/company/nnsdao-labs" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Careers
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Sponsors
-                </a>
-               
             </div>
       
             {/* Col-3 */}
@@ -104,20 +96,18 @@ const Footer: React.FC = () => {
             <div className="flex pb-5 px-3 m-auto pt-5 
                  text-gray-400 text-sm 
                 flex-col md:flex-row max-w-6xl">
-                <div className="hidden mt-2 flex md:show">
+                <div className="hidden md:flex mt-2 md:show">
                     NnsDAO Labs © Copyright 2021. Build on
 
-                    <img src="/imgs/deploy-ic.png" className="w-24 h-full ml-1" />
+                    <img src="/imgs/deploy-ic.png" className="w-24 h-full ml-2" />
                 </div>
 
-                <div className="show mt-2 md:hidden">
+                <div className="show flex  mt-2 md:hidden mb-5">
                     NnsDAO Labs © Copyright 2021. 
-                    
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center pl-2">
                         Build on
-                        <img src="/imgs/deploy-ic.png" className="w-24 h-full ml-1" />
+                        <img src="/imgs/deploy-ic.png" className="w-10 h-full ml-1" />
                     </div>
-                    
                 </div>
       
                 <div className="justify-center items-center md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
