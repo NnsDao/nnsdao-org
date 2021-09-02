@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                 <a className="cursor-not-allowed my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
                     Docs
                 </a>
-                <a href="/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf" className="my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://github.com/NnsDao/nnsdao-org/blob/main/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf" className="my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700">
                     White Paper V1
                 </a>
               
