@@ -6,15 +6,15 @@ import './dao.css'
 const BoxData = [
     {
         'name':'DAOs',
-        'nameCount':100,
+        'nameCount':3,
     },
     {
         'name':'DAOn',
-        'nameCount':20,
+        'nameCount':1,
     },
     {
         'name':'dToken',
-        'nameCount':822,
+        'nameCount':3,
     },
 ]
 

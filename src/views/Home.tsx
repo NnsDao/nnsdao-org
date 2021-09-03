@@ -51,6 +51,10 @@ const data = {
     {
       title: "What is NnsDAO Virtual Passport?",
       content: "In the WEB3.0 era, independent dApps or protocols will record each user's on-chain behavior, and use this to measure the reputation of user behavior. Based on this on-chain behavior, NnsDAO proposes a governance hypothesis based on the user system. At the beginning of the agreement, each user who enters will receive a certain token reward. With the growth of time, under the effect of DAOs, each user will form its own unique virtual reputation."
+    },
+    {
+      title: "What is Sponsors?",
+      content: "Sponsors are early supporters of the project, and each user can donate using their own II wallet. All users who participate in the donation will receive tokens in the amount of 2% of the total and will make a part of the airdrop, the number of donations and participation time will determine the final number of tokens the donor will receive. After the official launch of NnsDAO, donors will be rewarded generously, and will also be rewarded with a portion of the token airdrop within the NnsDAO ecosystem. Sponsors Address:76f532b532a89440773abd7b45f513f39369882f4aafecd36809e4dd8d46d820 "
     }
   ]
 }

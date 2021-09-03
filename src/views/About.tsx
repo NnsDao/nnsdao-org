@@ -94,13 +94,24 @@ const About = () => {
                         </div>
                   </div>
 
+                   {/* Sponsors */}
+
+                   <div className="pl-6 mt-20">
+                        <p className="text-white text-2xls font-bold">Sponsors Holder</p>
+                        <div className="text-sm text-white pt-5 opacity-100">
+                            <p className="text-white text-xs">
+                            Sponsors ICP Address(Second start): 76f532b532a89440773abd7b45f513f39369882f4aafecd36809e4dd8d46d820
+                            </p>
+                        </div>
+                  </div>
+
                   {/* Design Concept Brand Assets */}
 
                   <div className="pl-6 mt-20">
                         <p className="text-white text-2xls font-bold">Design Concept Brand Assets</p>
                         <div className="text-sm text-white pt-5 opacity-100">
                             <p className="text-white text-xs">
-                              Download the logo and other brand assets samples <a href="" className="text-angelColor cursor-pointer transition"> here </a>.
+                              Download the logo and other brand assets samples <a href="https://github.com/NnsDao/nnsdao-org/blob/main/static/NnsDAO-logo.zip" className="text-angelColor cursor-pointer transition"> here </a>.
                             </p>
                         </div>
                   </div>
