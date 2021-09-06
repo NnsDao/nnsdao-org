@@ -194,10 +194,10 @@ const Home = () => {
                   </div>
 
                   <div className="w-full flex flex-row mx-auto justify-center items-center relative ">
-                      <form className=" flex">
+                      {/* <form className=" flex"> */}
                         {/* <input type="text" value="email" className="newletter-input px-5 py-3.5 text-newsletterHolder   focus:outline-none focus:ring focus:text-primary" placeholder="your@mail.com"/> */}
                        <a href="https://nnsdao.substack.com/"> <button className="md:w-32 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 uppercase button-blue ">Subscribe</button></a>
-                      </form>
+                      {/* </form> */}
                   </div>
                 </div>
 
