@@ -74,7 +74,7 @@ const Home = () => {
               Ecosystem
                 <div className="p-6 md:flex justify-center items-center md:p-20">
                   <div className="max-w-2xl">
-                    <img src="/imgs/icpscan.png" width="840px" height="537px" />
+                    <img src="/imgs/Icpscan.png" width="840px" height="537px" />
                   </div>
                   <div className="relative max-w-2xl">
                     <h2 className="text-xl font-bold text-white mb-2 text-left ">Icpscan</h2>
