@@ -11,4 +11,7 @@ export default defineConfig({
       ]
     }),
   ],
+  build: {
+    outDir: "/usr/local/share/project/docker-compose/nginx/html/nnsdao"
+  }
 })
