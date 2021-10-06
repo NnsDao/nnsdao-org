@@ -77,7 +77,7 @@ const Home = () => {
                     <img src="/imgs/Icpscan.png" width="840px" height="537px" />
                   </div>
                   <div className="relative max-w-2xl">
-                    <a className="text-xl mt-5 cursor-pointer transition duration-500" href="https://sznps-4aaaa-aaaah-qab2a-cai.ic0.app/"><h2 className="text-xl font-bold text-white mb-2 text-left ">Icpscan</h2></a>
+                    <a className="text-xl mt-5 cursor-pointer transition duration-500" target="_blank" rel="noopener" href="https://sznps-4aaaa-aaaah-qab2a-cai.raw.ic0.app/"><h2 className="text-xl font-bold text-white mb-2 text-left ">Icpscan</h2></a>
                     <p className="text-white  text-left align-middle text-xs leading-7">Icpscan is a block browser service based on IC.</p>
                     <p className="text-white  text-left align-middle text-xs leading-7 pb-2" >
                       Our vision is to access all Token information within the IC ecosystem, so that users can learn
@@ -98,7 +98,7 @@ const Home = () => {
                     <img src="/imgs/texas.png" width="539px" height="539px" />
                   </div>
                   <div className="relative max-w-2xl md:pl-10">
-                    <a className="text-xl mt-5 cursor-pointer transition duration-500" href="https://lm5fh-ayaaa-aaaah-aafua-cai.ic0.app/" ><h2 className="text-xl font-bold text-white mb-2 text-left ">Texas hold'em </h2></a>
+                    <a className="text-xl mt-5 cursor-pointer transition duration-500" target="_blank" rel="noopener" href="https://lm5fh-ayaaa-aaaah-aafua-cai.raw.ic0.app/" ><h2 className="text-xl font-bold text-white mb-2 text-left ">Texas hold'em </h2></a>
                     <p className="text-white  text-left align-middle text-xs leading-7 pb-2 break-words" >
                       There is a famous saying in Texas Hold'em: "Victory comes not from your opponent making more mistakes, but from you making fewer". Texas Hold'em is a very skillful game that combines luck, patience, perseverance, and wisdom together. It tests each person's character, ability and determines the ultimate winner through chips. Developed by DAOs, Texas is completely built on IC and controls all settlements through Motoko Actor smart contract, all codes, contracts, and algorithms are publicly visible, it features decentralization and opens up a new game of life. </p>
                     <div className="text-left  text-xs leading-7">
@@ -108,6 +108,25 @@ const Home = () => {
                       <p>·Free circulation of chips, anyone can participate</p>
                       <p>·No ads, the best quality experience</p>
                       <p>·Fair, just and open</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-6 md:flex justify-center items-center md:p-20">
+                  <div className="max-w-2xl">
+                    <img src="/imgs/icptree.png" width="539px" height="539px" />
+                  </div>
+                  <div className="relative max-w-2xl md:pl-10">
+                    <a className="text-xl mt-5 cursor-pointer transition duration-500" target="_blank" rel="noopener" href="https://hrrqn-4aaaa-aaaai-aasoq-cai.raw.ic0.app/" ><h2 className="text-xl font-bold text-white mb-2 text-left ">Icptree</h2></a>
+                    <p className="text-white  text-left align-middle text-xs leading-7 pb-2 break-words" >
+                      A link to your Web 3.0 application. Use links to link different people and create value by doing so. Use links to distinguish people with the same values and consensus, and then use DAOs to aggregate these people with common interests to create dApps.
+                    </p>
+                    <div className="text-left  text-xs leading-7">
+                      <p>·Keep safe, trusted, private.</p>
+                      <p>·Built on ICP and can be used by anyone.</p>
+                      <p>·Icptree doesn't track any personal data on your visitors.</p>
+                      <p>·Data persistence, Everything is stored on the blockchain.</p>
+                      <p>·The more people in the bi-directional link, the more tokens you get.</p>
                     </div>
                   </div>
                 </div>
@@ -196,7 +215,7 @@ const Home = () => {
                   <div className="w-full flex flex-row mx-auto justify-center items-center relative ">
                       {/* <form className=" flex"> */}
                         {/* <input type="text" value="email" className="newletter-input px-5 py-3.5 text-newsletterHolder   focus:outline-none focus:ring focus:text-primary" placeholder="your@mail.com"/> */}
-                       <a href="https://nnsdao.substack.com/"> <button className="md:w-32 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 uppercase button-blue ">Subscribe</button></a>
+                       <a href="https://nnsdao.substack.com/" target="_blank" rel="noopener" > <button className="md:w-32 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 uppercase button-blue ">Subscribe</button></a>
                       {/* </form> */}
                   </div>
                 </div>

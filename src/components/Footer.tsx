@@ -28,11 +28,14 @@ const Footer: React.FC = () => {
                 </div>
       
                 {/* Links */}
-                <a href="https://sznps-4aaaa-aaaah-qab2a-cai.ic0.app/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://sznps-4aaaa-aaaah-qab2a-cai.ic0.app/" target="_blank" rel="noopener" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Icpscan
                 </a>
-                <a href="https://lm5fh-ayaaa-aaaah-aafua-cai.ic0.app/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://lm5fh-ayaaa-aaaah-aafua-cai.ic0.app/" target="_blank" rel="noopener" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Texas
+                </a>
+                <a href="https://hrrqn-4aaaa-aaaai-aasoq-cai.raw.ic0.app/" target="_blank" rel="noopener" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Icptree
                 </a>
                 <a  className="cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700">
                     Icpdrops
