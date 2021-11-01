@@ -55,6 +55,10 @@ const data = {
     {
       title: "What is Sponsors?",
       content: "Sponsors are early supporters of the project, and each user can donate using their own II wallet. All users who participate in the donation will receive tokens in the amount of 2% of the total and will make a part of the airdrop, the number of donations and participation time will determine the final number of tokens the donor will receive. After the official launch of NnsDAO, donors will be rewarded generously, and will also be rewarded with a portion of the token airdrop within the NnsDAO ecosystem. Sponsors Address:76f532b532a89440773abd7b45f513f39369882f4aafecd36809e4dd8d46d820 "
+    },
+    {
+      title: "What is Airdrops?",
+      content: "The airdrop is an official NnsDAO event, all those who complete the contest will be rewarded with token, please check the airdrop description for specific rules. Participate in the airdrop now: https://nnsdao.medium.com/nnsdao-protocol-airdrop-activity-description-bf06e788cd6a"
     }
   ]
 }

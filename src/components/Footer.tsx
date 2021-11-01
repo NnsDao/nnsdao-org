@@ -69,25 +69,25 @@ const Footer: React.FC = () => {
                 </div>
       
                 {/* Links */}
-                <a href="https://twitter.com/NnsDaos" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://twitter.com/NnsDaos" target="_blank" rel="noopener"  className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Twitter
                 </a>
-                <a href="https://t.me/NnsDaos" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://t.me/NnsDaos" target="_blank" rel="noopener"  className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Telegram
                 </a>
-                <a href="https://dscvr.ic0.app/user/nnsdao" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://dscvr.ic0.app/user/nnsdao" target="_blank" rel="noopener"  className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Dscvr
                 </a>
-                <a href="https://az5sd-cqaaa-aaaae-aaarq-cai.ic0.app/u/nnsdaos" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://az5sd-cqaaa-aaaae-aaarq-cai.ic0.app/u/nnsdaos" target="_blank" rel="noopener"  className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Distrikt
                 </a>
-                <a href="https://nnsdao.substack.com/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://nnsdao.substack.com/" target="_blank" rel="noopener"  className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Substack
                 </a> 
-                {/*<a href="" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                <a href="https://discord.gg/UTZvcDkeDr" target="_blank" rel="noopener"  className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     Discord
                 </a>
-                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                {/* <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     YouTube
                 </a> */}
                 
@@ -115,19 +115,23 @@ const Footer: React.FC = () => {
       
                 <div className="justify-center items-center md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
                     
-                    <a href="https://twitter.com/NnsDaos" className="w-6 mx-1  hover:text-gray-100 text-sm font-medium duration-700">
+                    <a href="https://twitter.com/NnsDaos" target="_blank" rel="noopener"  className="w-6 mx-1  hover:text-gray-100 text-sm font-medium duration-700">
                         <img src="/imgs/twitter.png"  />
                     </a>
+
+                    <a href="https://discord.gg/UTZvcDkeDr" target="_blank" rel="noopener"  className="w-5 mx-1 opacity-50 hover:text-gray-100 text-sm font-medium duration-700">
+                        <img src="/imgs/discord.png"  />
+                    </a>
       
-                    <a href="https://nnsdao.medium.com/" className="w-6 mx-1 hover:text-gray-100 text-sm font-medium duration-700">
+                    <a href="https://nnsdao.medium.com/" target="_blank" rel="noopener"  className="w-6 mx-1 hover:text-gray-100 text-sm font-medium duration-700">
                         <img src="/imgs/medium.png"  />
                     </a>
       
-                    <a href="https://github.com/NnsDao" className="w-6 mx-1 hover:text-gray-100 text-sm font-medium duration-700">
+                    <a href="https://github.com/NnsDao" target="_blank" rel="noopener"  className="w-6 mx-1 hover:text-gray-100 text-sm font-medium duration-700">
                         <img src="/imgs/github.png"  />
                     </a>
       
-                    <a href="https://t.me/NnsDaos" className="w-6 mx-1 hover:text-gray-100 text-sm font-medium duration-700">
+                    <a href="https://t.me/NnsDaos" target="_blank" rel="noopener"  className="w-6 mx-1 hover:text-gray-100 text-sm font-medium duration-700">
                         <img src="/imgs/telegram.png"  />
                     </a>
       
