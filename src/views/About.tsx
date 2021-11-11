@@ -80,7 +80,7 @@ const About = () => {
                             <p className="text-white text-xs">
                             To get in touch, please email 
                             <span className="text-angelColor cursor-pointer transition duration-500">
-                              <a href="mailto:contact@nnsdao.com"> contact@nnsdao.com</a>
+                              <a href="mailto:contact@nnsdao.org"> contact@nnsdao.org</a>
                             </span>
                             </p>
                             <p className="text-white text-xs mt-5">

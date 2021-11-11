@@ -6,7 +6,7 @@ import './dao.css'
 const BoxData = [
     {
         'name':'DAOs',
-        'nameCount':3,
+        'nameCount':4,
     },
     {
         'name':'DAOn',
@@ -44,8 +44,10 @@ const Daobout: React.FC = () => {
                     We are committed to creating a different kind of sovereign governance protocol in the WEB 3.0 <br />era, built on IC's contract Canister.
                 </p>
                 <p className="text-sm text-white font-bold">
-                    {/* <a href="https://github.com/NnsDao/nnsdao-org/blob/main/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf" className="cursor-pointer duration-300 pr-3"> NDP  </a> */}
                     <a href="https://github.com/NnsDao/nnsdao-org/blob/main/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf" className="cursor-pointer">NnsDAO Protocol Whitepaper ↗ </a>
+                </p>
+                <p className="mt-3 text-sm text-white font-bold">
+                    <a href="https://github.com/NnsDao/nnsdao-org/blob/main/static/NnsDAO_Protocol_Labs_Deck.pdf" className="cursor-pointer">NnsDAO Protocol Deck ↗ </a>
                 </p>
             </div>
         </div>
