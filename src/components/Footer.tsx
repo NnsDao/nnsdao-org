@@ -97,19 +97,25 @@ const Footer: React.FC = () => {
         {/* Copyright Bar */}
         <div className="pt-2">
             <div className="flex pb-5 px-3 m-auto pt-5 
-                 text-gray-400 text-sm 
-                flex-col md:flex-row max-w-6xl">
-                <div className="hidden md:flex mt-2 md:show">
-                    NnsDAO Labs © Copyright 2021. Build on
-
-                    <img src="/imgs/deploy-ic.png" className="w-24 h-full ml-2" />
+                 text-gray-400 text-sm items-center
+                flex-col md:flex-col max-w-6xl">
+                <div className="hidden md:flex md:show">
+                    NnsDAO Labs Limited © 2021.  Build on
+                    <img src="/imgs/deploy-ic.png" className="w-24 h-full ml-2 mt-1" />
+                </div>
+                <div className="mb-1 mt-3 hidden md:flex md:show">
+                    <p>502-507th floor, Rasis Business Centre Building, Al Barsha 1 Dubai united arab emirates P.O.BOX-36677</p>
                 </div>
 
-                <div className="show flex  mt-2 md:hidden mb-5">
-                    NnsDAO Labs © Copyright 2021. 
-                    <div className="flex justify-center items-center pl-2">
+                <div className="show flex-col  mt-5 md:hidden mb-3">
+                    NnsDAO Labs Limited © 2021. 
+                    
+                    <div className="mt-1 mb-1">
+                        502-507th floor, Rasis Business Centre Building, Al Barsha 1 Dubai united arab emirates P.O.BOX-36677
+                    </div>
+                    <div className="flex justify-center items-center pl-2 mt-2">
                         Build on
-                        <img src="/imgs/deploy-ic.png" className="w-10 h-full ml-1" />
+                        <img src="/imgs/deploy-ic.png" className="w-15 h-full ml-1" />
                     </div>
                 </div>
       
