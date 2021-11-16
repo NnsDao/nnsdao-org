@@ -63,6 +63,32 @@ const data = {
   ]
 }
 
+const pressData = [
+  {
+    title: "NnsDAO, a globe-spanning network of decentralized autonomous organizations",
+    type: "Cointelegraph",
+    time: "NOV 11, 2021",
+    tags: "DAOs",
+    url: "https://cointelegraph.com/press-releases/nnsdao-a-globe-spanning-network-of-decentralized-autonomous-organizations",
+    imgs: "https://images.cointelegraph.com/images/1434_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hMDI3MzUwMDllYTFkYmUzNzY3YWFhYzZhYWZjY2MxMy5qcGc=.jpg"
+  },
+  {
+    title: "Use Wave Collapse Function To Create A NFT Metaverse",
+    type: "Medium",
+    tags: "Metaverse",
+    time: "Oct 18, 2021",
+    url: "https://nnsdao.medium.com/use-wave-collapse-function-to-create-a-nft-metaverse-3c9a218b84cf",
+    imgs: "https://miro.medium.com/max/1400/1*dsFo8S76u9XdYhF05EDhaA.jpeg"
+  },
+  {
+    title: "Why is the underlying protocol of NnsDAO called Nomos?",
+    type: "Substack",
+    tags: "Nomos",
+    time: "Sep 15, 2021",
+    url: "https://nnsdao.substack.com/p/why-is-the-underlying-protocol-of",
+    imgs: "https://miro.medium.com/max/1400/0*3QPcyr_E3UqbKykm.jpeg"
+  },
+]
 
 const Home = () => {
   return (
@@ -197,11 +223,45 @@ const Home = () => {
                       </div>
                   </div>
 
+                  {/* Press */}
+
+                  <div className="relative md:-top-28  mt-5" >
+                    <div >News</div>
+                    <div className="flex justify-center items-center py-10">
+                        <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+                          {pressData.map((pt, i) => (
+                            <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500" key={i}>
+                              <h3 className="mb-3 text-xl font-bold text-indigo-600">{pt.type}</h3>
+                              <div className="relative">
+                                <img className="w-full rounded-xl" src={pt.imgs} alt="Colors" />
+                                <p className="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">{pt.tags}</p>
+                              </div>
+                              <a href={pt.url} target="_blank" rel="noopener"  > <h1 className="mt-4 text-gray-500 text-xl font-bold cursor-pointer">{pt.title}</h1> </a>
+                              <div className="my-4">
+                                <div className="flex space-x-1 items-center">
+                                  <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                  </span>
+                                  <p className="text-black justify-center items-center text-sm -mt-2">{pt.time}</p>
+                                </div>
+                                <button className="mt-4 text-xl w-full text-white bg-indigo-600 py-1.5 rounded-xl shadow-lg">
+                                  <a href={pt.url} target="_blank" rel="noopener"  >Read More </a>
+                                </button>
+                              </div>
+                            </div>
+                           ))}
+                          
+                        </div>
+                      </div>
+                  </div>
+
                 </div>
 
                 {/* NnsDAO Newsletter */}
                 {/* max-w-lg  container  */}
-                <div id='newsletter' className="mt-20">
+                <div id='newsletter' className="mt-10">
                   <div className="text-lg text-white font-bold capitalize"> Get our weekly</div>
                   <div className="max-w-xl mx-auto flex items-center relative">
                     <div className="w-1/2 mr-4 md:mr-10">
