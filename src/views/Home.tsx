@@ -88,6 +88,22 @@ const pressData = [
     url: "https://nnsdao.substack.com/p/why-is-the-underlying-protocol-of",
     imgs: "https://miro.medium.com/max/1400/0*3QPcyr_E3UqbKykm.jpeg"
   },
+  {
+    title: "Interview with NNS DAO- A Borderless Tech World Unlocking Human Potential",
+    type: "Dfinity Community",
+    tags: "DAOs",
+    time: "Nov 16, 2021",
+    url: "https://www.dfinitycommunity.com/interview-with-nns-dao-a-borderless-tech-world-unlocking-human-potential/",
+    imgs: "https://www.dfinitycommunity.com/content/images/size/w2000/2021/11/NNS-Dao.jpg"
+  },
+  {
+    title: "NnsDAO、ユーザーがNDPホワイトリストを無料で応募し、NFTを獲得できるエアドロップコンテストを開始",
+    type: "Hide ac",
+    tags: "Airdrops",
+    time: "Nov 12, 2021",
+    url: "https://hide.ac/articles/qGDUtrTo2",
+    imgs: "https://miro.medium.com/max/1400/0*Gqhbldlv4wFbWrYe.jpg"
+  },
 ]
 
 const Home = () => {
