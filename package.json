@@ -8,6 +8,7 @@
     "rsw:build": "rsw && npm run build"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "autoprefixer": "^10.3.2",
     "postcss": "^8.3.6",
     "react": "^17.0.0",
@@ -18,6 +19,7 @@
     "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.8",

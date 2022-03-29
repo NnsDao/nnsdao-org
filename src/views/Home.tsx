@@ -144,10 +144,14 @@ const Home = () => {
             <div className='p-4 text-center text-white' id='ecosystem'>
               Ecosystem
               <div className='p-6 md:flex justify-center items-center md:p-20'>
-                <div className='max-w-2xl'>
+                <div
+                  className='max-w-2xl'
+                  data-aos='fade-right'
+                  data-aos-offset='100'
+                  data-aos-easing='ease-in-sine'>
                   <img src='/imgs/Icpscan.png' width='840px' height='537px' />
                 </div>
-                <div className='relative max-w-2xl'>
+                <div className='relative max-w-2xl' data-aos='fade-up'>
                   <a
                     className='text-xl mt-5 cursor-pointer transition duration-500'
                     target='_blank'
@@ -178,10 +182,14 @@ const Home = () => {
                 </div>
               </div>
               <div className='p-6 md:flex justify-center items-center md:p-20'>
-                <div className='max-w-2xl'>
+                <div
+                  className='max-w-2xl'
+                  data-aos='fade-right'
+                  data-aos-offset='100'
+                  data-aos-easing='ease-in-sine'>
                   <img src='/imgs/texas.png' width='539px' height='539px' />
                 </div>
-                <div className='relative max-w-2xl md:pl-10'>
+                <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
                   <a
                     className='text-xl mt-5 cursor-pointer transition duration-500'
                     target='_blank'
@@ -216,10 +224,50 @@ const Home = () => {
                 </div>
               </div>
               <div className='p-6 md:flex justify-center items-center md:p-20'>
-                <div className='max-w-2xl'>
+                <div
+                  className='max-w-2xl'
+                  data-aos='fade-right'
+                  data-aos-offset='100'
+                  data-aos-easing='ease-in-sine'>
+                  <img src='/imgs/icmarket.png' width='539px' height='539px' />
+                </div>
+                <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
+                  <a
+                    className='text-xl mt-5 cursor-pointer transition duration-500'
+                    target='_blank'
+                    rel='noopener'
+                    href='https://icmarket.app/'>
+                    <h2 className='text-xl font-bold text-white mb-2 text-left '>
+                      Icmarket
+                    </h2>
+                  </a>
+                  <p className='text-white  text-left align-middle text-xs leading-7 pb-2 break-words'>
+                    ICmarket is a 「diversified」 「tradable」platform for NFTs,
+                    which provides user-directed creation and collaboration. It
+                    also provides subDAO to join and create the common
+                    collections and collaborative NFTs.
+                  </p>
+                  <div className='text-left  text-xs leading-7'>
+                    <p>·Derivatives Aggregation.</p>
+                    <p>·Unlimited Creations.</p>
+                    <p>·Ecological cross-chain.</p>
+                    <p>·Create, trade rewards.</p>
+                    <p>
+                      ·All assets are under your full control, displaying your
+                      own PFP and PIS via protocol on Web3 applications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='p-6 md:flex justify-center items-center md:p-20'>
+                <div
+                  className='max-w-2xl'
+                  data-aos='fade-right'
+                  data-aos-offset='100'
+                  data-aos-easing='ease-in-sine'>
                   <img src='/imgs/icptree.png' width='539px' height='539px' />
                 </div>
-                <div className='relative max-w-2xl md:pl-10'>
+                <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
                   <a
                     className='text-xl mt-5 cursor-pointer transition duration-500'
                     target='_blank'
@@ -255,7 +303,7 @@ const Home = () => {
               <div className='md:flex flex-row justify-center'>
                 <div className='ec-box'>
                   <img src='/imgs/icpdrops.png' width='256px' height='107px' />
-                  <div className='ec-text'>
+                  <div className='ec-text' data-aos='fade-up'>
                     Icpdrops is an integrated airdrop platform for the IC
                     ecosystem. After each authorized Nnsdao user can obtain
                     different rights and interests, then participate in the
@@ -275,7 +323,7 @@ const Home = () => {
 
                 <div className='ec-box'>
                   <img src='/imgs/ec-logo.png' width='260px' height='537px' />
-                  <div className='ec-text'>
+                  <div className='ec-text' data-aos='fade-up'>
                     Nnsdao is simply a boundaryless autonomous organization.
                     that provides some basic modular programmable services for
                     building the world of DAOn.
@@ -292,7 +340,7 @@ const Home = () => {
               <div className='mnp-core' id='daon'>
                 <p className='mn-protocol'> Nnsdao Protocol </p>
 
-                <div className='mnp-text'>
+                <div className='mnp-text' data-aos='fade-up'>
                   <p>
                     Nomos Core:Underlying protocol principles after mainline.
                   </p>
@@ -323,7 +371,10 @@ const Home = () => {
                   <img width='2256px' height='2253px' src='/imgs/roadmap.png' />
                 </div>
                 {/* faq */}
-                <div className='relative md:-top-60' id='faq'>
+                <div
+                  className='relative md:-top-60'
+                  id='faq'
+                  data-aos='fade-up'>
                   <div> FAQ’s</div>
                   <div className='md:w-1/11 mx-auto text-left '>
                     <Faq
@@ -350,7 +401,7 @@ const Home = () => {
                     <div className='md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0'>
                       {pressData.map((pt, i) => (
                         <div
-                          className='max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500'
+                          className='max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500 cursor-pointer'
                           key={i}>
                           <h3 className='mb-3 text-xl font-bold text-indigo-600'>
                             {pt.type}
@@ -444,7 +495,7 @@ const Home = () => {
                     target='_blank'
                     rel='noopener'>
                     {' '}
-                    <button className='md:w-32 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 uppercase button-blue '>
+                    <button className='md:w-32 uppercase button-blue hover:bg-white transform bg-blue-200 '>
                       Subscribe
                     </button>
                   </a>
