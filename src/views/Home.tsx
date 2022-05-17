@@ -265,6 +265,36 @@ const Home = () => {
                   data-aos='fade-right'
                   data-aos-offset='100'
                   data-aos-easing='ease-in-sine'>
+                  <img src='/imgs/nlottery.png' width='539px' height='539px' />
+                </div>
+                <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
+                  <a
+                    className='text-xl mt-5 cursor-pointer transition duration-500'
+                    target='_blank'
+                    rel='noopener'
+                    href='https://icmarket.app/'>
+                    <h2 className='text-xl font-bold text-white mb-2 text-left '>
+                      NLottery
+                    </h2>
+                  </a>
+                  <p className='text-white  text-left align-middle text-xs leading-7 pb-2 break-words'>
+                    Web3 lottery application building on blockchain, using IC in
+                    canisters and randomness, fair and just.
+                  </p>
+                  <div className='text-left  text-xs leading-7'>
+                    <p>·Easy to use, three steps to complete the earnings.</p>
+                    <p>·Multiple Token pools for fast payouts.</p>
+                    <p>·Millions of NDP jackpots, buy to win.</p>
+                    <p>·Trade eggs for tickets, new ways to play.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='p-6 md:flex justify-center items-center md:p-20'>
+                <div
+                  className='max-w-2xl'
+                  data-aos='fade-right'
+                  data-aos-offset='100'
+                  data-aos-easing='ease-in-sine'>
                   <img src='/imgs/icptree.png' width='539px' height='539px' />
                 </div>
                 <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
@@ -322,7 +352,11 @@ const Home = () => {
                 </div>
 
                 <div className='ec-box'>
-                  <img src='/imgs/ec-logo.png' width='260px' height='537px' />
+                  <a
+                    href='https://h637e-ziaaa-aaaaj-aaeaa-cai.raw.ic0.app/'
+                    target='_blank'>
+                    <img src='/imgs/ec-logo.png' width='260px' height='537px' />
+                  </a>
                   <div className='ec-text' data-aos='fade-up'>
                     Nnsdao is simply a boundaryless autonomous organization.
                     that provides some basic modular programmable services for
