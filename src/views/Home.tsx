@@ -295,6 +295,43 @@ const Home = () => {
                   data-aos='fade-right'
                   data-aos-offset='100'
                   data-aos-easing='ease-in-sine'>
+                  <img src='/imgs/nlottery.png' width='539px' height='539px' />
+                </div>
+                <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
+                  <a
+                    className='text-xl mt-5 cursor-pointer transition duration-500'
+                    target='_blank'
+                    rel='noopener'
+                    href='https://nswap.ooo/'>
+                    <h2 className='text-xl font-bold text-white mb-2 text-left '>
+                      NSwap
+                    </h2>
+                  </a>
+                  <p className='text-white  text-left align-middle text-xs leading-7 pb-2 break-words'>
+                    Reputation and transaction based swap protocol.
+                  </p>
+                  <div className='text-left  text-xs leading-7'>
+                    <p>
+                      ·Each platform can interoperate with other platforms and
+                      reputation is not isolated.
+                    </p>
+                    <p>
+                      ·Everything we've built that you can use, operating
+                      forever on the IC.{' '}
+                    </p>
+                    <p>
+                      ·The attributes of the NFT set represent the participation
+                      and reputation of the members.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='p-6 md:flex justify-center items-center md:p-20'>
+                <div
+                  className='max-w-2xl'
+                  data-aos='fade-right'
+                  data-aos-offset='100'
+                  data-aos-easing='ease-in-sine'>
                   <img src='/imgs/icptree.png' width='539px' height='539px' />
                 </div>
                 <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
