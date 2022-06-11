@@ -272,7 +272,7 @@ const Home = () => {
                     className='text-xl mt-5 cursor-pointer transition duration-500'
                     target='_blank'
                     rel='noopener'
-                    href='https://icmarket.app/'>
+                    href='https://twitter.com/NnsDaos'>
                     <h2 className='text-xl font-bold text-white mb-2 text-left '>
                       NLottery
                     </h2>
@@ -295,14 +295,14 @@ const Home = () => {
                   data-aos='fade-right'
                   data-aos-offset='100'
                   data-aos-easing='ease-in-sine'>
-                  <img src='/imgs/nlottery.png' width='539px' height='539px' />
+                  <img src='/imgs/nswap.jpg' width='539px' height='539px' />
                 </div>
                 <div className='relative max-w-2xl md:pl-10' data-aos='fade-up'>
                   <a
                     className='text-xl mt-5 cursor-pointer transition duration-500'
                     target='_blank'
                     rel='noopener'
-                    href='https://nswap.ooo/'>
+                    href='https://twitter.com/nswap_ooo'>
                     <h2 className='text-xl font-bold text-white mb-2 text-left '>
                       NSwap
                     </h2>
