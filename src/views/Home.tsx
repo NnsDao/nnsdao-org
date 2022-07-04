@@ -149,6 +149,42 @@ const Home = () => {
                   data-aos='fade-right'
                   data-aos-offset='100'
                   data-aos-easing='ease-in-sine'>
+                  <img
+                    src='/imgs/reputation.png'
+                    width='850px'
+                    height='537px'
+                  />
+                </div>
+                <div className='relative max-w-2xl' data-aos='fade-up'>
+                  <a
+                    className='text-xl mt-5 cursor-pointer transition duration-500'
+                    target='_blank'
+                    rel='noopener'
+                    href='https://h637e-ziaaa-aaaaj-aaeaa-cai.raw.ic0.app/'>
+                    <h2 className='text-xl font-bold text-white mb-2 text-left '>
+                      NnsDAO Protocol
+                    </h2>
+                  </a>
+                  <p className='text-white  text-left align-middle text-xs leading-7'>
+                    NnsDAO is simply a borderless autonomous organization that
+                    provides some basic modular programmable services for
+                    building the world of DAOn.
+                  </p>
+
+                  <div className='text-left  text-xs leading-7'>
+                    <p>·Nnsdao nomos core protocol</p>
+                    <p>·DAOn DAOs constraint rules</p>
+                    <p>·Virtual passport system</p>
+                    <p>·Credit-based voting system</p>
+                  </div>
+                </div>
+              </div>
+              <div className='p-6 md:flex justify-center items-center md:p-20'>
+                <div
+                  className='max-w-2xl'
+                  data-aos='fade-right'
+                  data-aos-offset='100'
+                  data-aos-easing='ease-in-sine'>
                   <img src='/imgs/Icpscan.png' width='840px' height='537px' />
                 </div>
                 <div className='relative max-w-2xl' data-aos='fade-up'>
@@ -376,33 +412,29 @@ const Home = () => {
                     different rights and interests, then participate in the
                     airdrop within the IC ecosystem.
                     <div className='ec-bottom-text'>
+                      <p>- Reputation-based airdrop system.</p>
                       <p>
-                        ·Participate in the ecology to get different token
-                        airdrops
+                        - Participate in the ecology to get different token
+                        airdrops.
                       </p>
                       <p>
-                        ·Follow the status of new coins and airdrops in real
-                        time
+                        - Follow the status of new coins and airdrops in real
+                        time.
                       </p>
                     </div>
                   </div>
                 </div>
 
                 <div className='ec-box'>
-                  <a
-                    href='https://h637e-ziaaa-aaaaj-aaeaa-cai.raw.ic0.app/'
-                    target='_blank'>
-                    <img src='/imgs/ec-logo.png' width='260px' height='537px' />
-                  </a>
+                  <img src='/imgs/neuron.png' width='100px' height='100px' />
+                  <div className='flex relative ml-24 -top-16'>Nns Bio</div>
                   <div className='ec-text' data-aos='fade-up'>
-                    Nnsdao is simply a boundaryless autonomous organization.
-                    that provides some basic modular programmable services for
-                    building the world of DAOn.
+                    Nns bio, Your web3 in one identity.
                     <div className='ec-bottom-text'>
-                      <p>·Nnsdao nomos core protocol</p>
-                      <p>·DAOn DAOs constraint rules</p>
-                      <p>·Virtual passport system</p>
-                      <p>·Credit-based voting system</p>
+                      <p>- On-chain Web3 identity based on DID and Nomos.</p>
+                      <p>- DID-based bidirectional links.</p>
+                      <p>- A collection of badges and NFTs.</p>
+                      <p>- Influence spheres of social graphs.</p>
                     </div>
                   </div>
                 </div>

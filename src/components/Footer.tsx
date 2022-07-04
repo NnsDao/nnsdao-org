@@ -24,6 +24,12 @@ const Footer: React.FC = () => {
             className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             White Paper Japanese V1
           </a>
+
+          <a
+            href='https://github.com/NnsDao/nnsdao-org/tree/main/static/comics/English'
+            className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
+            DAOs To DAOs Comics
+          </a>
         </div>
 
         {/* Col-2 */}

@@ -16,7 +16,7 @@ const Starfish: React.FC = () => {
       <div className='flex relative text-white justify-center'>
         <p className='flex  absolute top-80 left-16 text-2xl md:top-96 md:left-60 md:text-4xl'>
           {' '}
-          DAOs SINGULARITY{' '}
+          DAOs SINGULARITY
         </p>
         <a
           href='https://github.com/NnsDao/nnsdao-org/blob/main/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf'
