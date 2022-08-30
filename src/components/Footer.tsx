@@ -30,6 +30,18 @@ const Footer: React.FC = () => {
             className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             DAOs To DAOs Comics
           </a>
+
+          <a
+            href='https://app.icpswap.com/swap'
+            className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
+            Buy NDP via ICPswap
+          </a>
+
+          <a
+            href='https://app.sonic.ooo/swap'
+            className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
+            Buy NDP via Sonic
+          </a>
         </div>
 
         {/* Col-2 */}
@@ -46,6 +58,13 @@ const Footer: React.FC = () => {
             rel='noopener'
             className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
             Icpscan
+          </a>
+          <a
+            href='https://ltdzc-siaaa-aaaag-qab5q-cai.raw.ic0.app/'
+            target='_blank'
+            rel='noopener'
+            className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
+            ICmarket
           </a>
           <a
             href='https://lm5fh-ayaaa-aaaah-aafua-cai.ic0.app/'
@@ -65,7 +84,10 @@ const Footer: React.FC = () => {
             Icpdrops
           </a>
           <a className='cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700'>
-            Dfinity Social
+            ICpodcast
+          </a>
+          <a className='cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700'>
+            NNS.BIO
           </a>
         </div>
 
