@@ -287,7 +287,7 @@ const Home = () => {
                     <p>·Derivatives Aggregation.</p>
                     <p>·Unlimited Creations.</p>
                     <p>·Ecological cross-chain.</p>
-                    <p>·Create, trade rewards.</p>
+                    <p>·NDK Proxy, support Multi-Tokens trade.</p>
                     <p>
                       ·All assets are under your full control, displaying your
                       own PFP and PIS via protocol on Web3 applications.
@@ -308,7 +308,7 @@ const Home = () => {
                     className='text-xl mt-5 cursor-pointer transition duration-500'
                     target='_blank'
                     rel='noopener'
-                    href='https://twitter.com/NnsDaos'>
+                    href='https://icbet.ooo'>
                     <h2 className='text-xl font-bold text-white mb-2 text-left '>
                       NLottery
                     </h2>
@@ -320,12 +320,12 @@ const Home = () => {
                   <div className='text-left  text-xs leading-7'>
                     <p>·Easy to use, three steps to complete the earnings.</p>
                     <p>·Multiple Token pools for fast payouts.</p>
-                    <p>·Millions of NDP jackpots, buy to win.</p>
+                    <p>·Millions of GHOST, DOGMI, NDP jackpots, buy to win.</p>
                     <p>·Trade eggs for tickets, new ways to play.</p>
                   </div>
                 </div>
               </div>
-              <div className='p-6 md:flex justify-center items-center md:p-20'>
+              {/* <div className='p-6 md:flex justify-center items-center md:p-20'>
                 <div
                   className='max-w-2xl'
                   data-aos='fade-right'
@@ -361,8 +361,8 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className='p-6 md:flex justify-center items-center md:p-20'>
+              </div> */}
+              {/* <div className='p-6 md:flex justify-center items-center md:p-20'>
                 <div
                   className='max-w-2xl'
                   data-aos='fade-right'
@@ -402,8 +402,8 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className='md:flex flex-row justify-center'>
+              </div> */}
+              {/* <div className='md:flex flex-row justify-center'>
                 <div className='ec-box'>
                   <img src='/imgs/icpdrops.png' width='256px' height='107px' />
                   <div className='ec-text' data-aos='fade-up'>
@@ -438,30 +438,31 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* nnsdao Protocol */}
               <div className='mnp-core' id='daon'>
                 <p className='mn-protocol'> Nnsdao Protocol </p>
 
                 <div className='mnp-text' data-aos='fade-up'>
                   <p>
-                    Nomos Core:Underlying protocol principles after mainline.
+                    Nomos Core, Underlying protocol principles after mainline.
                   </p>
                   <p>
-                    DAOn:The constraint rules are generally referred to as the
+                    DAOn, The constraint rules are generally referred to as the
                     ground rules of the current domain.
                   </p>
+                  <p>NNSDAO SDK, is realized based on DAOBasic SDK</p>
                   <p>
-                    DAOs:Service functions are generally referred to as
-                    programmable DAOs, which have a number of fundamental
-                    properties.
+                    NID, NID is built on the basis of the ICP ecosystem, through
+                    which the user reputation value is acquired, the future will
+                    continue to improve the corresponding algorithm.
                   </p>
                 </div>
                 <div className='justify-center bg-cover md:mx-96'>
                   <img
                     width='1111px'
                     height='514px'
-                    src='/imgs/nnsdao-nomos-core.png'
+                    src='/imgs/nnsdao-nomos-core.svg'
                   />
                 </div>
 

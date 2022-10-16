@@ -11,34 +11,48 @@ const Footer: React.FC = () => {
             Getting Started
           </div>
           {/* Links */}
-          <a className='cursor-not-allowed my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
+          <a
+            href='https://docs.nnsdao.org/'
+            target='_blank'
+            rel='noopener'
+            className='cursor my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             Docs
           </a>
           <a
             href='https://github.com/NnsDao/nnsdao-org/blob/main/static/NnsDAO_Boundaryless_Autonomous_Organization.pdf'
+            target='_blank'
+            rel='noopener'
             className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             White Paper V1
           </a>
           <a
             href='https://syunduel.medium.com/nnsdao-whitepaper-japanese-translation-922c47e3840b'
+            target='_blank'
+            rel='noopener'
             className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             White Paper Japanese V1
           </a>
 
           <a
             href='https://github.com/NnsDao/nnsdao-org/tree/main/static/comics/English'
+            target='_blank'
+            rel='noopener'
             className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             DAOs To DAOs Comics
           </a>
 
           <a
             href='https://app.icpswap.com/swap'
+            target='_blank'
+            rel='noopener'
             className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             Buy NDP via ICPswap
           </a>
 
           <a
             href='https://app.sonic.ooo/swap'
+            target='_blank'
+            rel='noopener'
             className='my-3 block text-white hover:text-gray-100 text-sm font-medium duration-700'>
             Buy NDP via Sonic
           </a>
@@ -80,7 +94,7 @@ const Footer: React.FC = () => {
             className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
             Icptree
           </a>
-          <a className='cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700'>
+          {/* <a className='cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700'>
             Icpdrops
           </a>
           <a className='cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700'>
@@ -88,7 +102,7 @@ const Footer: React.FC = () => {
           </a>
           <a className='cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700'>
             NNS.BIO
-          </a>
+          </a> */}
         </div>
 
         {/* Col-3 */}
@@ -160,9 +174,13 @@ const Footer: React.FC = () => {
             className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
             Discord
           </a>
-          {/* <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    YouTube
-                </a> */}
+          <a
+            href='https://www.coingecko.com/en/coins/nnsdao-protocol'
+            target='_blank'
+            rel='noopener'
+            className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
+            Coingecko
+          </a>
         </div>
       </div>
 
@@ -173,8 +191,8 @@ const Footer: React.FC = () => {
                  text-gray-400 text-sm items-center
                 flex-col md:flex-col max-w-6xl'>
           <div className='hidden md:flex md:show'>
-            NnsDAO Labs Limited © 2021. Build on
-            <img src='/imgs/deploy-ic.png' className='w-24 h-full ml-2 mt-1' />
+            NnsDAO Labs Limited © 2022.
+            <img src='/imgs/ic-badge.png' className='w-24 h-full ml-2' />
           </div>
           <div className='mb-1 mt-3 hidden md:flex md:show'>
             <p>
@@ -184,14 +202,13 @@ const Footer: React.FC = () => {
           </div>
 
           <div className='show flex-col  mt-5 md:hidden mb-3'>
-            NnsDAO Labs Limited © 2021.
+            NnsDAO Labs Limited © 2022.
             <div className='mt-1 mb-1'>
               502-507th floor, Rasis Business Centre Building, Al Barsha 1 Dubai
               united arab emirates P.O.BOX-36677
             </div>
             <div className='flex justify-center items-center pl-2 mt-2'>
-              Build on
-              <img src='/imgs/deploy-ic.png' className='w-15 h-full ml-1' />
+              <img src='/imgs/ic-badge.png' className='w-24 h-full ml-1' />
             </div>
           </div>
 
