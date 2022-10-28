@@ -66,6 +66,15 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Links */}
+
+          <a
+            href='https://h637e-ziaaa-aaaaj-aaeaa-cai.raw.ic0.app/'
+            target='_blank'
+            rel='noopener'
+            className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
+            Nomos Platform
+          </a>
+
           <a
             href='https://sznps-4aaaa-aaaah-qab2a-cai.ic0.app/'
             target='_blank'
@@ -94,6 +103,7 @@ const Footer: React.FC = () => {
             className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
             Icptree
           </a>
+
           {/* <a className='cursor-not-allowed  my-3 block text-gray-300 text-sm font-medium duration-700'>
             Icpdrops
           </a>
@@ -121,6 +131,30 @@ const Footer: React.FC = () => {
             href='https://angel.co/company/nnsdao-labs'
             className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
             Careers
+          </a>
+
+          <a
+            href='https://coinmarketcap.com/currencies/nnsdao-protocol/'
+            target='_blank'
+            rel='noopener'
+            className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
+            Coinmarketcap
+          </a>
+
+          <a
+            href='https://www.coingecko.com/en/coins/nnsdao-protocol'
+            target='_blank'
+            rel='noopener'
+            className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
+            Coingecko
+          </a>
+
+          <a
+            href='https://www.coincarp.com/currencies/nnsdao-protocol/'
+            target='_blank'
+            rel='noopener'
+            className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
+            Coincarp
           </a>
         </div>
 
@@ -173,13 +207,6 @@ const Footer: React.FC = () => {
             rel='noopener'
             className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
             Discord
-          </a>
-          <a
-            href='https://www.coingecko.com/en/coins/nnsdao-protocol'
-            target='_blank'
-            rel='noopener'
-            className='my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700'>
-            Coingecko
           </a>
         </div>
       </div>

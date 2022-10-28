@@ -458,7 +458,7 @@ const Home = () => {
                     continue to improve the corresponding algorithm.
                   </p>
                 </div>
-                <div className='justify-center bg-cover md:mx-96'>
+                <div className='justify-center mx-auto bg-cover md:mx-96'>
                   <img
                     width='1111px'
                     height='514px'
