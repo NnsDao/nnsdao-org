@@ -308,7 +308,7 @@ const Home = () => {
                     className='text-xl mt-5 cursor-pointer transition duration-500'
                     target='_blank'
                     rel='noopener'
-                    href='https://icbet.ooo'>
+                    href='https://ycr3g-2yaaa-aaaah-abq7q-cai.raw.ic0.app/'>
                     <h2 className='text-xl font-bold text-white mb-2 text-left '>
                       NLottery
                     </h2>
