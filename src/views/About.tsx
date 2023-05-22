@@ -87,12 +87,15 @@ const About = () => {
                   <p className='text-white text-xs'>
                     We are looking for talented people to join our team!
                   </p>
-                  <p className='text-angelColor text-xl mt-5 underline cursor-pointer transition duration-500'>
+                  <p className='text-angelColor text-xl mt-5  cursor-pointer  duration-500'>
+                    Not yet.
+                  </p>
+                  {/* <p className='text-angelColor text-xl mt-5 underline cursor-pointer transition duration-500'>
                     <a href='https://angel.co/company/nnsdao-labs'>
                       {' '}
                       Full list of roles available at Nnsdao{' '}
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
 

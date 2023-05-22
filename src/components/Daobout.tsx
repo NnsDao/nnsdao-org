@@ -4,11 +4,11 @@ import './dao.css';
 const BoxData = [
   {
     name: 'DAOs',
-    nameCount: 4
+    nameCount: 12
   },
   {
     name: 'DAOn',
-    nameCount: 1
+    nameCount: 3
   },
   {
     name: 'dToken',

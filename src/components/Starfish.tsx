@@ -3,7 +3,7 @@ import React from 'react';
 const Starfish: React.FC = () => {
   return (
     <div id='home' className='h-min-screen'>
-      <div className='max-w-2xl  flex absolute md:right-40 top-20 md:flex-shrink-0'>
+      <div className='max-w-2xl  flex absolute md:right-40 top-20 md:flex-shrink-0 brightness-50'>
         <img src='/imgs/starfish.png' alt='nnsdao starfish logo' />
       </div>
       <div className='flex relative text-white'>

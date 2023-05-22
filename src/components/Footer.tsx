@@ -1,5 +1,8 @@
 import React from 'react';
 
+var today = new Date();
+var year = today.getFullYear();
+
 const Footer: React.FC = () => {
   return (
     <footer className='pt-10 sm:mt-10'>
@@ -218,8 +221,8 @@ const Footer: React.FC = () => {
                  text-gray-400 text-sm items-center
                 flex-col md:flex-col max-w-6xl'>
           <div className='hidden md:flex md:show'>
-            NnsDAO Labs Limited © 2022.
-            <img src='/imgs/ic-badge.png' className='w-24 h-full ml-2' />
+            NnsDAO Labs Limited © 2021-{year}.
+            <img src='/imgs/ic-logo-dark.svg' className='w-24 h-full ml-2' />
           </div>
           <div className='mb-1 mt-3 hidden md:flex md:show'>
             <p>
@@ -229,13 +232,13 @@ const Footer: React.FC = () => {
           </div>
 
           <div className='show flex-col  mt-5 md:hidden mb-3'>
-            NnsDAO Labs Limited © 2022.
+            NnsDAO Labs Limited © 2021-{year}.
             <div className='mt-1 mb-1'>
               502-507th floor, Rasis Business Centre Building, Al Barsha 1 Dubai
               united arab emirates P.O.BOX-36677
             </div>
             <div className='flex justify-center items-center pl-2 mt-2'>
-              <img src='/imgs/ic-badge.png' className='w-24 h-full ml-1' />
+              <img src='/imgs/ic-logo-dark.svg' className='w-24 h-full ml-1' />
             </div>
           </div>
 

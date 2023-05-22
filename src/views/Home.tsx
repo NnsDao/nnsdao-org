@@ -3,7 +3,6 @@ import Faq from 'react-faq-component';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import Starfish from '../components/Starfish';
-import Video from '../components/Video';
 import './home.css';
 
 const data = {
@@ -136,7 +135,7 @@ const Home = () => {
     <React.Fragment>
       <main>
         <div className='bg-primary'>
-          <Video />
+          {/* <Video /> */}
           <Starfish />
           <Nav />
           {/* Ecosystem */}
